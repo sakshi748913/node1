@@ -15,6 +15,15 @@
 // node modules
 
 // commonjs
-const add = require("./math");
+// const add = require("./math");
+// const subs = require("./math");
+// const mult = require("./math");
+// const div = require("./math");
 
-console.log(add(5,10));
+const math = require("./math");
+
+console.log(math.add(5,10));
+console.log(math.mult(9,10));
+console.log(math.subs(199,10));
+console.log(math.div(6,10));
+console.log(math.PI);
